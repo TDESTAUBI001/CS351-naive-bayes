@@ -1,5 +1,5 @@
 /*
-Copyright (c) 2016-2020 Jeremy Iverson
+Copyright (c) 2016-2020 Thomas de St. Aubin
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -164,38 +164,7 @@ main(int argc, char * argv[])
   printf("\n\n");
   
   /* Output Prediction */
-  printf("I Thomas, hereby predict that the rating for movie five will be %.1lf\t:)\n\n\n", (maxIndex + 1) / 2.0);
-  
-# if 0
-  /* Output Art */
-  printf("                              ____                \n");
-  printf("                             /    |               \n");
-  printf("                            /     |               \n");
-  printf("                           /      |               \n");
-  printf("                          /       |               \n");
-  printf("                         /        |               \n");
-  printf("                        /         |               \n");
-  printf("                       /          |               \n");
-  printf("                      /     /|    |               \n");
-  printf("                     /     / |    |               \n");
-  printf("                    /     /  |    |               \n");
-  printf("                   /     /   |    |               \n");
-  printf("                  /     /     l   |               \n");
-  printf("                 /     /       l  |               \n");
-  printf("                /     /       l l |               \n");
-  printf("               /     /        |l l|               \n");
-  printf("              /     ----------  l l               \n");
-  printf("             /                   l                \n");
-  printf("            /     ____________   /                \n");
-  printf("           /     /            | / /               \n");
-  printf("          /     /             |/ /|               \n");
-  printf("         /     /              / / |               \n");
-  printf("        /     /                /  |               \n");
-  printf("       /     /                /___|               \n");
-  printf("      /     /                                     \n");
-  printf("     /     /                                      \n");
-  printf("    /_____/                                       \n\n");
-# endif
+  printf("The predicted rating for movie five will be %.1lf\t:)\n\n\n", (maxIndex + 1) / 2.0);
   
   
   /* Deallocate memory. */
